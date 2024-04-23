@@ -16,14 +16,19 @@ public class JwtExample3DatabaseApplication implements CommandLineRunner {
 		SpringApplication.run(JwtExample3DatabaseApplication.class, args);
 	}
 
-	@Bean
-	public PasswordEncoder passwordEncoder() {
-		return new BCryptPasswordEncoder();
-	}
+//	@Bean
+//	public PasswordEncoder passwordEncoder() {
+//		return new BCryptPasswordEncoder();
+//	}
+//	
+//	@Override
+//	public void run(String... args) throws Exception {
+//		System.out.println(passwordEncoder().encode("abc"));
+//	}
 	
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println(passwordEncoder().encode("abc"));
+		System.out.println("Project started");
 	}
 	
 	
