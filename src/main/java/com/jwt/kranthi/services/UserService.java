@@ -1,4 +1,4 @@
-package com.jwt.example.services;
+package com.jwt.kranthi.services;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -9,10 +9,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.jwt.example.models.Role;
-import com.jwt.example.models.User;
-import com.jwt.example.repositories.RoleRepository;
-import com.jwt.example.repositories.UserRepository;
+import com.jwt.kranthi.models.Role;
+import com.jwt.kranthi.models.User;
+import com.jwt.kranthi.repositories.RoleRepository;
+import com.jwt.kranthi.repositories.UserRepository;
 
 @Service
 public class UserService {
