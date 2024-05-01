@@ -1,4 +1,4 @@
-package com.jwt.example.config;
+package com.jwt.kranthi.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -15,9 +15,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.jwt.example.security.CustomUserDetailService;
-import com.jwt.example.security.JwtAuthenticationEntryPoint;
-import com.jwt.example.security.JwtAuthenticationFilter;
+import com.jwt.kranthi.security.CustomUserDetailService;
+import com.jwt.kranthi.security.JwtAuthenticationEntryPoint;
+import com.jwt.kranthi.security.JwtAuthenticationFilter;
 
 @Configuration
 @EnableMethodSecurity
