@@ -1,4 +1,4 @@
-package com.jwt.example.models;
+package com.jwt.kranthi.models;
 
 import java.util.Collection;
 import java.util.HashSet;

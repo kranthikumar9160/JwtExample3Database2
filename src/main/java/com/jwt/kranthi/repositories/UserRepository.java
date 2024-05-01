@@ -1,8 +1,8 @@
-package com.jwt.example.repositories;
+package com.jwt.kranthi.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.jwt.example.models.User;
+import com.jwt.kranthi.models.User;
 
 public interface UserRepository extends JpaRepository<User, String>{
 	

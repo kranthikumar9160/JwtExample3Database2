@@ -1,6 +1,6 @@
-package com.jwt.example.bankaccounts;
+package com.jwt.kranthi.bankaccounts;
 
-public class ViewBankAccountForm
+public class ViewBankAccountForm extends PagenationBean
 {
 
 	String sno = "";
@@ -178,5 +178,9 @@ public class ViewBankAccountForm
 		this.searchBankName = this.bankName;
 		this.searchAccPurpose = this.accPurpose;
 		this.searchSchoolSeq = this.schoolSeq;
+	}
+	
+	public PagenationBean getPaginationBean(){
+		return new PagenationBean();
 	}
 }

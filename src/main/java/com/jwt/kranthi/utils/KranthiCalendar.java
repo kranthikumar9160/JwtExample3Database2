@@ -1,4 +1,4 @@
-package com.jwt.example.utils;
+package com.jwt.kranthi.utils;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

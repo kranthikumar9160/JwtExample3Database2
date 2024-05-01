@@ -1,4 +1,4 @@
-package com.jwt.example.exceptions;
+package com.jwt.kranthi.exceptions;
 
 import lombok.Getter;
 import lombok.Setter;
