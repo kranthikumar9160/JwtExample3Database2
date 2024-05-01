@@ -1,4 +1,4 @@
-package com.jwt.example.controller;
+package com.jwt.kranthi.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jwt.example.models.JwtRequest;
-import com.jwt.example.models.JwtResponse;
-import com.jwt.example.security.CustomUserDetailService;
-import com.jwt.example.security.JwtHelper;
+import com.jwt.kranthi.models.JwtRequest;
+import com.jwt.kranthi.models.JwtResponse;
+import com.jwt.kranthi.security.CustomUserDetailService;
+import com.jwt.kranthi.security.JwtHelper;
 
 @RestController
 @RequestMapping("/auth")
