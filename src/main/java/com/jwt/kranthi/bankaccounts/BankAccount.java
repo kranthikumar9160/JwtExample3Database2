@@ -1,4 +1,4 @@
-package com.jwt.example.bankaccounts;
+package com.jwt.kranthi.bankaccounts;
 
 import java.util.Date;
 
