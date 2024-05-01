@@ -1,4 +1,4 @@
-package com.jwt.example;
+package com.jwt.kranthi;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
