@@ -1,4 +1,4 @@
-package com.jwt.example.security;
+package com.jwt.kranthi.security;
 
 import java.io.IOException;
 import java.io.PrintWriter;
