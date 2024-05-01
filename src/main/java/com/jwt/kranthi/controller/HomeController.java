@@ -1,4 +1,4 @@
-package com.jwt.example.controller;
+package com.jwt.kranthi.controller;
 
 import java.security.Principal;
 import java.util.List;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jwt.example.models.User;
-import com.jwt.example.repositories.UserRepository;
-import com.jwt.example.services.UserService;
+import com.jwt.kranthi.models.User;
+import com.jwt.kranthi.repositories.UserRepository;
+import com.jwt.kranthi.services.UserService;
 
 @RestController
 @RequestMapping("/home")
